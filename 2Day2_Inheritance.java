@@ -315,3 +315,30 @@ class Main implements Pizza1, Pizza2{
 
 //output:
 // Default Zomato
+//---------------------------------REPEAT MODE DIFFERENT PROBLEMS(JAVAPOINT)----------------
+//Programmer is the subclass and Employee is the superclass. The relation between The
+//two classes is IS-A Employee. It means that programmer is a type of employee.
+class Employee{
+    float salary = 500;
+}
+class Programmer extends Employee{
+    int bonus = 5;
+    public static void main(String args[]){
+        Programmer p = new Programmer();
+        System.out.println("Programmer salary is: "+ p.salary);
+        System.out.println("Programmer salary is: " + p.bonus);
+    }
+}
+
+//In place of Programmer write Main then output is:
+//output:
+// Programmer salary is: 500.0
+// Programmer salary is: 5
+//------------------------------------------------------------------------------------- 
+
+//Types of inheritances in java 
+//1. Single inheritance 
+//2. Multilevel inheritance 
+//3. Hierarchical inheritance 
+//4. Multiple inheritance 
+//5. Hybrid inheritance 
